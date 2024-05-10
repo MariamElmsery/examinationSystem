@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      html {
+    overflow: hidden; /* to prevent scrollbars */
+    background-image: url(photos/Web\ 1280\ –\ 1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    img{
+        margin: 150px 200px 0 200px;
+        /* margin-top: 150px; */
+        display: flex;
+      
+        position: relative;
+    }
+    div{
+        margin-left: 500px;
+        position: absolute;
+        left: 100px;
+        top: 250px;
+        
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.6rem;
+        
+    }
+    </style>
+</head>
+<body>
+    <img src="images/Sad-Face-Emoji.png" alt="sad face" width="300px">
+    <!-- <i class="fa-regular fa-face-sad-tear"></i> -->
+    <div>
+        <h3>
+            Your Grade : <span></span><br>
+            Don't be Sad <span></span><br>
+            You can Achieve The Best,<br>
+            So Smile and Do The Best
+        </h3>
+    </div>
+    
+    <script >
+        var full_name = localStorage.getItem("Full name");
+        var counter=localStorage.getItem("counter");
+        var span=document.getElementsByTagName("span");
+        span[0].textContent=`${counter} %`;
+        span[0].style.color="darkred";
+        span[1].textContent=`${full_name}`;
+        span[1].style.color="darkred";
+       
+    </script>
+</body>
+</html>

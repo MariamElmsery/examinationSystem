@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* overflow: hidden; to prevent scrollbars */
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/pexels-antoni-shkraba-4348403.jpg);
+    /* min-height: 100vh; */
+    background-color: black;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-color: #1a1b1b; */
+  }
+
+.parent {
+    height: 100vh;
+    position: relative;
+    
+    
+}
+.prog-timer{
+    margin: 20px;
+}
+
+.progress {
+    appearance: none;
+    width: 90vw;
+    /* margin: 20px; */
+    
+    
+}
+
+
+progress[value]::-webkit-progress-bar {
+    background-image: linear-gradient(  rgba(220, 220, 220, .7), rgb(232, 210, 145));
+    border-radius: 8px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-image: linear-gradient( darkred,  #385A64);
+    transition: width 0.5s ease;
+    border-radius: 8px;
+
+}
+#timerValue{
+    color: whitesmoke;
+    margin:0px 15px;
+    font-size: 20px;
+    
+   border-radius: 8px;
+
+}
+
+div .qu-heading {
+    background-color:rgba(255, 255, 255, 0.9);
+    /* color: whitesmoke; */
+    /* box-shadow: 5px 5px 10px  darkgray; */
+    padding: 8px;
+    border-radius: 8px;
+   
+    width: 55vw;
+
+}
+
+.qu-heading {
+    margin: 100px 100px 50px 100px;
+    font-size: 21px;
+    /* color:whitesmoke; */
+    position: relative;
+    
+}
+
+.parent-ans {
+    background-color:rgba(255, 255, 255, 0.9);
+    /* color: whitesmoke; */
+    /* box-shadow: 5px 5px 10px  darkgray; */
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    
+    margin: 0px 100px 50px 100px;
+    width: 55vw;
+   
+}
+
+.radio {
+    margin: 20px 0;
+    accent-color:darkred;
+
+}
+
+#div-btn {
+    margin: 20px 35%;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:darkred;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+.pre {
+    display: none;
+}
+.count{
+    width: 40px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:whitesmoke;
+    color: black;
+    /* display: none; */
+}
+.count:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+
+.mrk {
+    /* background-color: whitesmoke; */
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    left: 61%;
+    top: 19%;
+    padding: 5px;
+   
+   
+}
+
+#side {
+    width: 20%;
+    height: 65vh;
+    background-color:rgba(255, 255, 255, 0.9);
+    position: absolute;
+    border-radius: 8px;
+    left: 77%;
+    top: 18%;
+    color:whitesmoke;
+}
+
+#q-Mark{
+    background-color :darkred;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+#side a{
+    display: block;
+    text-decoration: none;
+    color: darkgray;
+    padding: 5px;
+}
+.bn632-hover {
+    width: 500px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    left: 35px;
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 170px;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    color: black;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn18 {
+    background-image: linear-gradient(
+        to right,
+        darkred,
+        #385A64,
+            #E1E1E1,
+            #385A64);
+        /* box-shadow: 0 4px 15px 0 #E1E1E1; */
+  }
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeOut</title>
+    <style>
+        html {
+            background-image: url(images/pexels-photo-359989.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+
+        #head {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+           
+
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Timed Out</h1> -->
+    <div><h1 id="head">Sorry,<span class="span"></span>, but Time Out </h1>
+        <h1 class="h">Try Again Later</h1>
+    </div>
+    
+    <script>
+
+        var fullname = localStorage.getItem("Full name");
+        var head=document.getElementsByTagName("div");
+        var h1=document.getElementsByClassName("h");
+        head[0].style.margin="200px 800px 200px 0px";
+        h1[0].style.marginLeft="40px";
+        
+
+        var span = document.getElementsByTagName("span");
+        span[0].textContent = `${fullname}`;
+        span[0].style.color ="black";
+
+
+
+
+    </script>
+</body>
+
+</html>

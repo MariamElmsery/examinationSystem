@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/pexels-antoni-shkraba-4348403.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/istockphoto-1398473177-612x612.jpg);
+    color: whitesmoke;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; */
+}
+
+#login-page {
+    width: 500px;
+    height: 300px;
+    margin: 150px 380px;
+    box-shadow: 7px 7px 30px 10px rgb(100, 127, 134);
+    background-color: rgba(1, 1, 1, .6);
+    color: white;
+    border-radius: 8px;
+
+
+}
+
+form {
+    padding: 20px;
+}
+
+
+span {
+    padding-left: 100px;
+    color: red;
+    display: none;
+
+}
+
+input {
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px 0 16px 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+#btn-login {
+    width: 150px;
+    margin: 0 150px;
+    border-radius: 8px;
+    background-color: rgb(134, 113, 113);
+    color: white;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+#btn-login:hover {
+    background-color: rgb(220, 220, 220);
+    color: black;
+}

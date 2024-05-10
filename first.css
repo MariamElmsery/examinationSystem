@@ -1,0 +1,85 @@
+html{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/pexels-antoni-shkraba-4348403.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/istockphoto-1398473177-612x612.jpg);
+    color: whitesmoke;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; */
+}
+
+
+#parent {
+    position: relative;
+}
+
+#left img {
+    width: 450px;
+    position: absolute;
+    left: 10vw;
+    top: 170px;
+}
+#heading{
+    position: absolute;
+    left: 65vw;
+    top: 35px;
+    color: whitesmoke;
+}
+#heading h1{
+    text-shadow:7px 7px 10px  rgb(4, 58, 71);
+}
+
+
+#right {
+    width: 500px;
+    height: 425px;
+    position: absolute;
+    left: 55vw;
+    top: 130px;
+    box-shadow: 7px 7px 20px 10px rgb(77, 128, 141);
+    background-color:rgba(1,1,1, .6);
+    color: white;
+    border-radius: 8px;
+}
+
+
+form {
+    padding: 20px;
+    /* background-color:white; */
+}
+
+
+span{
+    padding-left:100px;
+    color:red;
+    display: none;
+    
+}
+
+input {
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    margin:5px 0 16px 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 8px;
+}
+#btn-submit{
+    width: 150px;
+    margin: 0 150px;
+    border-radius: 8px;
+    background-color:  rgb(134, 113, 113);
+    color: white;
+    font-size: 16px;
+    margin-top: 35px;
+}
+#btn-submit:hover{
+    background-color:rgb(220,220,220);
+    color: black;
+}
